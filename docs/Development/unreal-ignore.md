@@ -1,0 +1,61 @@
+---
+title: Unreal Git Ignore
+layout: default
+parent: Working with Unreal Engine
+nav_order: 3.2.1
+---
+```
+####################
+# FMOD Integration #
+####################
+
+## You only need to include the Bank files FMOD Studio generated (the ones you get from pressing F7 in FMOD Studio) in source control.  All of the .uasset files are generated client-side (i.e. on each computer individually)
+
+# GENERATED ASSETS #
+
+# Don't ingore Platform Build folders - Add any additional platforms as required here, for eg "!/**/Content/FMOD/Android"
+!/**/Content/FMOD/Desktop
+
+# Ignore everything else under Content/FMOD/ as the integration generates the files client-side
+/**/Content/FMOD/*
+
+
+# PLUGIN FILES #
+
+# KEEP only Binaries, Content, Source folders & .uplugin files for each of the FMOD Plugins
+!/**/Plugins/FMODStudio/Binaries
+!/**/Plugins/FMODStudio/Content
+!/**/Plugins/FMODStudio/Source
+
+!/**/Plugins/FMODStudioNiagara/Binaries
+!/**/Plugins/FMODStudioNiagara/Content
+!/**/Plugins/FMODStudioNiagara/Source
+
+!/**/Plugins/FMODStudioOpenXR/Source
+
+!/**/Plugins/FMODStudio/*.uplugin
+!/**/Plugins/FMODStudioNiagara/*.uplugin
+!/**/Plugins/FMODStudioOpenXR/*.uplugin
+
+# Ignore everything else
+/**/Plugins/FMODStudio/*
+/**/Plugins/FMODStudioNiagara/*
+/**/Plugins/FMODStudioOpenXR/*
+
+# Log files can be ignored.
+fmod_editor.log
+
+################
+# FMOD Project #
+################
+
+## This is only required if you're hosting your FMOD Project on source control ##
+
+# Set "FMOD Project" to your FMOD Project's folder location in source control
+
+# FMOD Cached files
+/FMOD Project/.cache/*
+/FMOD Project/.user/*
+/FMOD Project/.unsaved/*
+/FMOD Project/Build/*
+```
