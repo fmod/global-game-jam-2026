@@ -24,19 +24,22 @@
 ## If you're using Source Control
 
 If you've been added to your Development Team's source control, you only need to push your Bank files.
+
 To do this, you just need to go to Edit - Preferences, switch to the Build tab and set your "Built banks output directory" to one of the following:
-For Unity, set it to [ProjectName]/Assets/FMOD
-For Unreal, set it to [ProjectName]/Content/FMOD
+
+For Unity, set it to `[ProjectName]/Assets/FMOD`
+
+For Unreal, set it to `[ProjectName]/Content/FMOD`
 
 If you can't see those locations, find one of the FMOD support crew & we'll help you out!
 
 ### Further Documentation
 
-FMOD Studio - Events video - https://www.youtube.com/watch?v=gQFZ4HhoT4A
-FMOD Studio - Parameters video - https://www.youtube.com/watch?v=pp8k3pM7Ies
-FMOD Studio Quick Start tutorial - https://www.fmod.com/docs/2.03/studio/quick-start-tutorial.html
-Getting Started FMOD Basics video playlist - https://www.youtube.com/playlist?list=PLp4vT3ssm5SUgEJpDeA0Nb-1BKGxnDu2m
-FMOD Building Blocks video playlist - https://www.youtube.com/playlist?list=PLp4vT3ssm5SUwiP_T0Yt8ugio5M9di1Em
+- FMOD Studio - Events video - https://www.youtube.com/watch?v=gQFZ4HhoT4A
+- FMOD Studio - Parameters video - https://www.youtube.com/watch?v=pp8k3pM7Ies
+- FMOD Studio Quick Start tutorial - https://www.fmod.com/docs/2.03/studio/quick-start-tutorial.html
+- Getting Started FMOD Basics video playlist - https://www.youtube.com/playlist?list=PLp4vT3ssm5SUgEJpDeA0Nb-1BKGxnDu2m
+- FMOD Building Blocks video playlist - https://www.youtube.com/playlist?list=PLp4vT3ssm5SUwiP_T0Yt8ugio5M9di1Em
 
 # Development Team
 
@@ -44,7 +47,7 @@ FMOD Building Blocks video playlist - https://www.youtube.com/playlist?list=PLp4
 
 You can find a detailed breakdown of working with FMOD for Unreal from our integration tutorial here - https://www.youtube.com/watch?v=dgaFfvyTss0
 
-But, for additional reference, here are the steps you'll need to follow:
+For additional reference, here are the steps you'll need to follow:
 
 1. Log in to www.fmod.com (creating an account is free & only requires an email)
 2. Download the FMOD for Unreal integration from https://www.fmod.com/download#fmodforunreal
@@ -57,17 +60,17 @@ But, for additional reference, here are the steps you'll need to follow:
 
 ### Further documentation:
 
-FMOD for Unreal User Guide - https://www.fmod.com/docs/2.03/unreal/user-guide.html
-FMOD for Unreal - Making Sounds section - https://www.fmod.com/docs/2.03/unreal/user-guide.html#making-sounds
-FMOD for Unreal - Programming Support - https://www.fmod.com/docs/2.03/unreal/user-guide.html#programming-support
-FMOD for Unreal - API - https://www.fmod.com/docs/2.03/unreal/api-reference.html
-FMOD for Unreal - Blueprint Reference - https://www.fmod.com/docs/2.03/unreal/blueprint-reference.html
+- FMOD for Unreal User Guide - https://www.fmod.com/docs/2.03/unreal/user-guide.html
+- FMOD for Unreal - Making Sounds section - https://www.fmod.com/docs/2.03/unreal/user-guide.html#making-sounds
+- FMOD for Unreal - Programming Support - https://www.fmod.com/docs/2.03/unreal/user-guide.html#programming-support
+- FMOD for Unreal - API - https://www.fmod.com/docs/2.03/unreal/api-reference.html
+- FMOD for Unreal - Blueprint Reference - https://www.fmod.com/docs/2.03/unreal/blueprint-reference.html
 
 ## Working with Unity
 
-Likewise with Unreal, you can follow our FMOD for Unity tutorial video here - https://www.youtube.com/watch?v=9ehp1aqtDuI
+You can follow our FMOD for Unity tutorial video here - https://www.youtube.com/watch?v=9ehp1aqtDuI
 
-But we'll also outline the steps required here for you as well:
+We'll also outline the steps required here for you as well:
 
 1. Log in to www.fmod.com (creating an account is free & only requires an email)
 2. Download the FMOD for Unity integration from https://www.fmod.com/download#fmodforunity
@@ -82,7 +85,7 @@ But we'll also outline the steps required here for you as well:
 
 ### Further documentation:
 
-FMOD for Unity User Guide - https://www.fmod.com/docs/2.03/unity/user-guide.html
-FMOD for Unity - Adding Sounds - https://www.fmod.com/docs/2.03/unity/user-guide.html#adding-fmod-studio-content-to-your-unity-project
-FMOD for Unity - Visual Scripting - https://www.fmod.com/docs/2.03/unity/user-guide.html#visual-scripting
-FMOD for Unity - Scripting API - https://www.fmod.com/docs/2.03/unity/api.html
+- FMOD for Unity User Guide - https://www.fmod.com/docs/2.03/unity/user-guide.html
+- FMOD for Unity - Adding Sounds - https://www.fmod.com/docs/2.03/unity/user-guide.html#adding-fmod-studio-content-to-your-unity-project
+- FMOD for Unity - Visual Scripting - https://www.fmod.com/docs/2.03/unity/user-guide.html#visual-scripting
+- FMOD for Unity - Scripting API - https://www.fmod.com/docs/2.03/unity/api.html
