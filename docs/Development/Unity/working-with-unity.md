@@ -13,7 +13,7 @@ We'll also outline the steps required here for you as well:
 ### Setting up Source Control
 
 First, make sure your version control has the correct ignores set up:
-    - [Github Setup](https://ggj.fmod.com/docs/Development/Unity/working-with-unity.html#git-ignore-setup)
+    - [Github Setup](https://ggj.fmod.com/docs/Development/Unity/working-with-unity.html#git-ignore-setup) <br>
     - [SVN Setup](https://ggj.fmod.com/docs/Development/Unity/working-with-unity.html#svn-ignore-setup)
 
 ## Getting the Integration
