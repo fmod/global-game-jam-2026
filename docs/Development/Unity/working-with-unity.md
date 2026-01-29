@@ -4,7 +4,31 @@ layout: default
 parent: Development Team
 nav_order: 3.1
 ---
-# Working with Unity and Github
+# Working with Unity
+
+## Setting up Source Control
+
+Depending on your source control the way you will ignore our files will be slightly different. You can just add our tempaltes to your versions `.ignore` files:
+
+- [Git Ignore Template](unity-ignore.html)
+- [SVN Ignore Template](fmod-for-unity-svn-ignore.html)
+
+## Getting the Integration
+
+There are two options when grabbing the FMOD integration:
+
+1. Through the Unity Package Manager:
+    - Add the Unity Integration to your Unity Account:
+        [Version 2.2](https://assetstore.unity.com/packages/tools/audio/fmod-for-unity-2-02-161631)
+        [Version 2.3](https://assetstore.unity.com/packages/tools/audio/fmod-for-unity-2-03-311497)
+    - In the Unity Editor
+    - Open the Package Manager
+        ![Unity Package Manager Open](assets/Unity/PackageManagerUnity.png)
+    - In `My Assets` search for `FMOD for Unity`
+    - Add your desired Major version
+        ![FMOD for Unity](assets/Unity/FMODinPM.png)
+
+    - Head to [FMOD Downloads](https://www.fmod.com/download#unity)
 
 You can follow our [FMOD for Unity tutorial video](https://www.youtube.com/watch?v=9ehp1aqtDuI)
 
