@@ -2,7 +2,7 @@
 title: Unity Ignore
 layout: default
 parent: Working with Unity
-nav_order: 3.2.1
+nav_order: 3.1.1
 ---
 ```
 # Never ignore DLLs in the FMOD subfolder.
