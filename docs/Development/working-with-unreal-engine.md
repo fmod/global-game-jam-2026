@@ -17,6 +17,14 @@ For additional reference, here are the steps you'll need to follow:
 5. Add the banks supplied from the Audio Team to [ProjectName]/Content/FMOD/. <br> Ensure the Platform names are included, for example [ProjectName]/Content/FMOD/Desktop
 6. Restart the Unreal editor to have UE generate the required .uassets
 
+## SVN Ignore setup
+
+If using SVN, you'll need to download the [fmod_unreal_svn_ignore.txt](fmod-unreal-svn-ignore.html) file, put it in your project's parent folder and run the following commands from that same folder:
+```
+svn propset svn:ignore -F fmod_unreal_svn_ignore.txt Content/FMOD
+svn propset svn:ignore -F fmod_unreal_svn_ignore.txt "FMOD Project"
+```
+
 ## Further documentation:
 
 - [FMOD for Unreal User Guide](https://www.fmod.com/docs/2.03/unreal/user-guide.html)

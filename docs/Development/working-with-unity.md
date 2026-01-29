@@ -4,7 +4,7 @@ layout: default
 parent: Development Team
 nav_order: 3.1
 ---
-# Working with Unity
+# Working with Unity and Github
 
 You can follow our [FMOD for Unity tutorial video](https://www.youtube.com/watch?v=9ehp1aqtDuI)
 
@@ -24,6 +24,14 @@ If you have devs working on different operating systems, we suggest adding a `.g
 ```
 Assets/Plugins/FMOD/**/*.bundle text eol=lf
 Assets/Plugins/FMOD/**/Info.plist text eol=lf
+```
+
+## SVN Ignore setup
+
+If using SVN, you'll need to grab the [fmod_unity_svn_ignore.txt](fmod-for-unity-svn-ignore.html) file, put it in your project's parent folder and run the following commands from that same folder:
+```
+svn propset svn:ignore -F fmod_unity_svn_ignore.txt Assets/Plugins/FMOD
+svn propset svn:ignore -F fmod_unity_svn_ignore.txt Assets/StreamingAssets
 ```
 
 ## Further documentation:
