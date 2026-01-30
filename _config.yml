@@ -8,3 +8,7 @@ aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
 search_enabled: false
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
+
