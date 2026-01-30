@@ -20,6 +20,8 @@ First, make sure your version control has the correct ignores set up:
 
 There are two options when grabbing the FMOD integration:
 
+### Using Unity Package Manager
+
 1. Through the Unity Package Manager:
     - Add the Unity Integration to your Unity Account:
         [Version 2.2](https://assetstore.unity.com/packages/tools/audio/fmod-for-unity-2-02-161631)
@@ -32,6 +34,8 @@ There are two options when grabbing the FMOD integration:
         ![FMOD for Unity](assets/Unity/FMODinPM.png)
 
 Or
+
+### Directly from FMOD Downloads
 
 1.  Log in to [www.fmod.com](https://fmod.com) (creating an account is free & only requires an email)
 2.  Head to [FMOD Downloads](https://www.fmod.com/download#unity) to download specific sub versions if required.
