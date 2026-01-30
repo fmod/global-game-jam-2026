@@ -88,4 +88,4 @@ We'll also outline the steps required here for you as well:
 - FMOD for Unity User Guide - https://www.fmod.com/docs/2.03/unity/user-guide.html
 - FMOD for Unity - Adding Sounds - https://www.fmod.com/docs/2.03/unity/user-guide.html#adding-fmod-studio-content-to-your-unity-project
 - FMOD for Unity - Visual Scripting - https://www.fmod.com/docs/2.03/unity/user-guide.html#visual-scripting
-- FMOD for Unity - Scripting API - https://www.fmod.com/docs/2.03/unity/api.html
+- FMOD for Unity - Scripting API - https://www.fmod.com/docs/2.03/unity/api.html.
