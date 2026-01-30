@@ -59,7 +59,9 @@ Assets/Plugins/FMOD/**/Info.plist text eol=lf
 
 ## Git Ignore Setup
 
-add our [starter ignore](unity-ignore.html) to your repositories `.gitignore`
+Add our [starter ignore](unity-ignore.html) to your repository's `.gitignore`
+
+*Keep in mind `.gitignore` files use a "Last Match Wins" heirarchy, so ensure our starter ignore entries are added at the bottom of your existing `.gitignore`.*
 
 ## SVN Ignore setup
 
@@ -70,6 +72,12 @@ svn propset svn:ignore -F fmod_unity_svn_ignore.txt Assets/StreamingAssets
 ```
 
 # Further documentation:
+
+## Videos
+
+- [FMOD for Unity tutorial video](https://www.youtube.com/watch?v=9ehp1aqtDuI)
+
+## Documentation
 
 - [FMOD for Unity User Guide](https://www.fmod.com/docs/2.03/unity/user-guide.html)
 - [FMOD for Unity - Adding Sounds](https://www.fmod.com/docs/2.03/unity/user-guide.html#adding-fmod-studio-content-to-your-unity-project)
