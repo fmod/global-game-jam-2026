@@ -19,7 +19,6 @@ nav_order: 3.2.1
 # Ignore everything else under Content/FMOD/ as the integration generates the files client-side
 /**/Content/FMOD/*
 
-
 # PLUGIN FILES #
 
 # KEEP only Binaries, Content, Source folders & .uplugin files for each of the FMOD Plugins

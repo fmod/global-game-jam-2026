@@ -13,8 +13,8 @@ For additional reference, here are the steps you'll need to follow:
 ### Setting up Source Control
 
 First, make sure your version control has the correct ignores set up:
-- [Github Setup](https://ggj.fmod.com/docs/Development/Unreal/working-with-unreal.html#git-ignore-setup) <br>
-- [SVN Setup](https://ggj.fmod.com/docs/Development/Unreal/working-with-unreal.html#svn-ignore-setup)
+- [Github Setup](working-with-unreal.html#git-ignore-setup) <br>
+- [SVN Setup](working-with-unreal.html#svn-ignore-setup)
 
 ## Installing the Integration
 
@@ -29,7 +29,6 @@ First, make sure your version control has the correct ignores set up:
 4. Add our [starter ignore](unreal-ignore.html) to your repository's `.gitignore`
 
 *Keep in mind `.gitignore` files use a "Last Match Wins" heirarchy, so ensure our starter ignore entries are added at the bottom of your existing `.gitignore`.*
-
 
 ## SVN Ignore Setup
 

@@ -1,7 +1,7 @@
 ---
 title: Working With Godot
 layout: default
-parent: Development
+parent: Development Team
 nav_order: 3.3
 ---
 # Working with Godot
