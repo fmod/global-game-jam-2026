@@ -1,7 +1,7 @@
 ---
 title: Godot Ignore
 layout: default
-parent: Working with Godot
+parent: Working With Godot
 nav_order: 3.3.1
 ---
 ```
