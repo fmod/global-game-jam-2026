@@ -28,10 +28,10 @@ There are two options when grabbing the FMOD integration:
         [Version 2.3](https://assetstore.unity.com/packages/tools/audio/fmod-for-unity-2-03-311497)
     - In the Unity Editor
     - Open the Package Manager
-        ![Unity Package Manager Open](assets/Unity/PackageManagerUnity.png)
+        ![Unity Package Manager Open](/assets/Unity/PackageManagerUnity.png)
     - In `My Assets` search for `FMOD for Unity`
     - Add your desired Major version
-        ![FMOD for Unity](assets/Unity/FMODinPM.png)
+        ![FMOD for Unity](/assets/Unity/FMODinPM.png)
 
 Or
 
