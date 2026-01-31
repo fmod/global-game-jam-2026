@@ -1,0 +1,21 @@
+---
+title: FMOD gitattributes
+layout: default
+parent: Sharing FMOD Projects
+nav_order: 2.2.1
+---
+```gitignore
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Audio formats
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.aiff filter=lfs diff=lfs merge=lfs -text
+*.aif filter=lfs diff=lfs merge=lfs -text
+*.mod filter=lfs diff=lfs merge=lfs -text
+*.it filter=lfs diff=lfs merge=lfs -text
+*.s3m filter=lfs diff=lfs merge=lfs -text
+*.xm filter=lfs diff=lfs merge=lfs -text
+```
