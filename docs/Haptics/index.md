@@ -10,5 +10,5 @@ The [FMOD Haptics](https://fmod.com/docs/2.03/studio/instrument-reference.html#h
 FMOD Haptics can be auditioned directly in FMOD Studio with either a Xbox or PS5 controller.
 
 Docs for adding haptics to Unity and Unreal can be found here:
-- [Unity Integration | Plugins - Fmod Haptics Setup](https://www.fmod.com/docs/2.03/unity/plugins.html#fmod-haptics-setup)
-- [Unreal Integration | Plugins - Fmod Haptics Setup](https://fmod.com/docs/2.03/unreal/plugins.html#fmod-haptics-setup)
+- [Unity Haptics Setup](https://www.fmod.com/docs/2.03/unity/plugins.html#fmod-haptics-setup)
+- [Unreal Haptics Setup](https://fmod.com/docs/2.03/unreal/plugins.html#fmod-haptics-setup)
