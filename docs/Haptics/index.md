@@ -12,3 +12,6 @@ FMOD Haptics can be auditioned directly in FMOD Studio with either a Xbox or PS5
 Docs for adding haptics to Unity and Unreal can be found here:
 - [Unity Haptics Setup](https://www.fmod.com/docs/2.03/unity/plugins.html#fmod-haptics-setup)
 - [Unreal Haptics Setup](https://fmod.com/docs/2.03/unreal/plugins.html#fmod-haptics-setup)
+
+## Note:
+Unfortunately, the Utopia Rise integration is using 2.03.06 which doesn't support haptics.
