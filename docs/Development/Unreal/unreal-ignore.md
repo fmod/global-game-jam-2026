@@ -4,7 +4,7 @@ layout: default
 parent: Working with Unreal Engine
 nav_order: 3.2.1
 ---
-```gitignore
+```
 ####################
 # FMOD Integration #
 ####################

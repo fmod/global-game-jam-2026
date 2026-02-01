@@ -4,7 +4,7 @@ layout: default
 parent: Working with Unity
 nav_order: 3.1.1
 ---
-```gitignore
+```
 # Never ignore DLLs in the FMOD subfolder.
 !/[Aa]ssets/Plugins/FMOD/**/lib/*
 

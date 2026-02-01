@@ -4,7 +4,7 @@ layout: default
 parent: Sharing FMOD Projects
 nav_order: 2.2.1
 ---
-```gitignore
+```
 # Auto detect text files and perform LF normalization
 * text=auto
 

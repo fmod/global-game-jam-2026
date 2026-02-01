@@ -26,7 +26,7 @@ We suggest tracking your audio source files with LFS.
 
 If you don't already have one, create a file named `.gitattributes` in the same directory as your `.fspro` project file, and add the following contents:
 
-```gitignore
+```
 # Auto detect text files and perform LF normalization
 * text=auto
 
@@ -50,7 +50,7 @@ We suggest ignoring a few folders that FMOD Studio uses but should not be commit
 
 If you don't already have one, create a file named `.gitignore` in the same directory as your `.fspro` project file, and add the following contents:
 
-```gitignore
+```
 # FMOD Cached files
 .cache/*
 .user/*
@@ -61,6 +61,6 @@ If you don't already have one, create a file named `.gitignore` in the same dire
 
 If you want to ignore built Banks to slim down your commit size for a jam, you can also ignore the Builds folder and elect to send built banks to your development team ad-hoc.
 
-```gitignore
+```
 Builds/*
 ```
